@@ -1,0 +1,37 @@
+{
+  "name": "Push Console",
+  "description": "Track Push Server Status by generating endpoints and sending push from the device",
+  "version": "0.01",
+  "launch_path": "/console.html",
+  "developer": {
+    "name": "Daniel Coloma"
+  },
+  "default_locale": "en",
+  "locales": {
+    "en-US": {
+      "name": "Push Console",
+      "description": "Track Push Server Status by generating endpoints and sending push from the device"
+    }
+  },
+  "messages": [
+    {
+      "push": "/console.html"
+    },
+    {
+      "push-register": "/console.html"
+    }
+  ],
+  "permissions": {
+    "push": {
+      "description": "Required for accesing push server"
+    }
+  },
+  "icons": {
+    "60": "/style/icons/icon60.png",
+    "64": "/style/icons/icon64.png",
+    "90": "/style/icons/icon90.png",
+    "120": "/style/icons/icon120.png",
+    "128": "/style/icons/icon128.png"
+  },
+  "orientation": "portrait-primary"
+}
