@@ -1,4 +1,5 @@
 {
+  "package_path": "http://dcoloma.github.io/pushconsole/package.zip",
   "name": "Push Console",
   "description": "Track Push Server Status by generating endpoints and sending push from the device",
   "version": "0.01",

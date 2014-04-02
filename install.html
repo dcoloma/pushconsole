@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <p> Install the Push Console</p>
+    <script>
+      // This URL must be a full url.
+      var manifestUrl = 'http://dcoloma.github.io/pushconsole/manifest.webapp';
+      var req = navigator.mozApps.installPackage(manifestUrl);
+      req.onsuccess = function() {
+        alert("Installing Application");
+      };
+      req.onerror = function() {
+        alert(this.error.name);
+      };
+    </script>
+  </body>
+</html>
